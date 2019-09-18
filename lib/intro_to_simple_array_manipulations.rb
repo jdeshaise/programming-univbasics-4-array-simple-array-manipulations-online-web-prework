@@ -24,7 +24,7 @@ def artists ["Beyonce" , "kid rock" , "lil flip"]
 def artists.pop_with_args ["lil flip" , "kid rock"]
 
 array_artist #=> ["Beyonce"]
-  
+
 end
 
 def artists ["Beyonce" , "kid rock" , "lil flip"]
@@ -32,5 +32,5 @@ def artists ["Beyonce" , "kid rock" , "lil flip"]
   artists.using_shift ["Beyonce"]
 
   array #=> ("kid rock" "lil flip")
-  
+
 end
